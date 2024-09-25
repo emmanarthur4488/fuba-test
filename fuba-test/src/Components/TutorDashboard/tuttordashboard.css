@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fuba_tutor-container{
+    display: flex;
+    width: 100%;
+}
+.Daniel_container{
+    background: #ecebeb;
+    height: 110vh;
+    width: 90%;
+}
+.Daniel_profile{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.profilenav h2{
+    color: #333333;
+}
+.tutor-Daniel{
+    display: flex;
+    align-items: center;
+}
+.dan{
+    display: flex;
+    align-items: center;
+}
+.notibell{
+    width: 26px;
+    height: 26px;
+}
+.ellipse-red{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: -1rem;
+    left: -6px;
+}
+.dan h1{
+    font-size: 12px;
+}
+.dan img{
+    width: 26px;
+    height: 26px;
+}
+.daniel_inner-container{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 5px;
+}
+.daniel_address{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #cccccc;
+    border-radius: 3px;
+    align-items: center;
+    padding: 1rem;
+}
+.Daniel_profile h2{
+    padding-left: 3rem;
+}
+.daniel_inner-container h1{
+    font-size: 16px;
+    padding-bottom: 1rem;
+    color: #777777;
+}
+.address-info{
+    display: flex;
+    align-items: center;
+}
+.address-info h2{
+    font-size: 12px;
+    padding-left: 5px;
+}
+.address-info p{
+    font-size: 11px;
+    padding-left: 5px;
+    color: #888888;
+}
+.edit-container button{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    padding: 3px;
+    border: 1.7px solid #cccccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.edit-container button img{
+    width: 14px;
+    height: 14px;
+}
+.daniel_inner-container2{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #cccccc;
+}
+.inner-container2{
+    background: white;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-bottom: 1rem;
+}
+.daniel-info{
+    display: flex;
+    justify-content: space-between;
+}
+.daniel-personal-data{
+    display: flex;
+    padding: 1rem;
+}
+.name_section{
+    padding-right: 2rem;
+}
+.name_section h1{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.name_section p{
+    font-size: 12px;
+}
+.daniel-bio{
+    padding: 1rem;
+}
+.daniel-bio h1{
+    font-size: 15px;
+}
+.daniel-bio p{
+    font-size: 12px;
+}
+.personal{
+    padding-left: 1rem;
+    font-size: 18px;
+}
+
+
+.side-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+.sideprofile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3rem;
+    border: 2px solid #cccccc;
+    border-radius: 3px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 2px;
+    cursor: pointer;
+}
+.side_profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+.sideprofile img{
+    width: 20px;
+    height: 20px;
+}
+.side_profile img{
+    width: 20px;
+    height: 20px;
+}
+.sideprofile p{
+    font-weight: 600;
+    color: #525050;
+}
+.side_profile p{
+    font-weight: 600;
+    color: #525050;
+}
+.side-profile img{
+    width: 20px;
+    height: 20px;
+}
+.side-profile p{
+    font-weight: 600;
+    color: #525050;
+}
+.daniel-logout{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 10rem;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+.daniel-logout p{
+    color: #525050;
+    font-weight: 600;
+    cursor: pointer;
+}

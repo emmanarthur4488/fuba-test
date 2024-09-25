@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.landnav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.landnav-container ul{
+    display: flex;
+    gap: 2rem;
+}
+.logo-logo{
+    width: 50%;
+    height: 50%;
+}
+.land-navigator{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.nav-col{
+    display: flex;
+    gap: 2rem;
+    font-weight: 600;
+    color: #575555;
+}
+.nav-col p{
+    cursor: pointer;
+}
+.search-col{
+    display: flex;
+    align-items: center;
+}
+.search-col input{
+    padding: 5px;
+    border: 2px solid #cccccc;
+    outline: none;
+    cursor: pointer;
+}
+.search-image{
+    background: #280d46;
+    padding: 4px;
+}
+.btn-col{
+    display: flex;
+    gap: 2rem;
+}
+.btn-col-1{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border:  1px solid #cccccc;
+    border-radius: 4px;
+    background: whitesmoke;
+}
+.btn-col-2{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: none;
+    border-radius: 4px;
+    color: whitesmoke;
+    background: #280D46;
+}
+.menu-icon{
+    display: none;
+}
+
+
+@media (max-width: 840px){
+    .landnav-container{
+        padding: 0.5rem;
+    }
+    .landnav-container ul{
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #6e7083;
+        z-index: 1;
+        width: 150px;
+        padding-top: 20px;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        transition: 0.6s;
+        color: whitesmoke;
+    }
+    .landnav-container ul .land-navigator{
+        display: block;
+        padding-top: 1rem;
+    }
+    .landnav-container .menu-icon{
+        display: block;
+        width: 20px;
+        cursor: pointer;
+        z-index: 1;
+        position: relative;
+    }
+    .landnav-container .hide-mobile-menu{
+        right: -150px;
+    }
+    .landnav-container ul{
+        display: block;
+    }
+    .nav-col{
+        display: block;
+        gap: 2rem;
+        font-weight: 600;
+        color: #575555;
+    }
+    .nav-col p{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: whitesmoke;
+    }
+    .search-col{
+        display: none;
+    }
+    .btn-col{
+        display: block;
+        gap: 2rem;
+    }
+    .btn-col-1{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border:  1px solid #cccccc;
+        border-radius: 4px;
+        background: whitesmoke;
+        color: #280d46;
+        width: 70%;
+        margin-bottom: 5px;
+    }
+    .btn-col-2{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border: none;
+        border-radius: 4px;
+        color: whitesmoke;
+        background: #280D46;
+        width: 70%;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+}

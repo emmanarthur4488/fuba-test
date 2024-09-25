@@ -1,0 +1,64 @@
+.sidebar{
+   display: block;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin-left: 3rem;
+   /* position: fixed; */
+}
+.block-side{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 2rem;
+}
+.block-sidee{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 2rem;
+   border: 1px solid #20104d;
+   border-radius: 4px;
+   margin-left: 1rem;
+   margin-right: 1rem;
+}
+.block-side img{
+   width: 30px;
+   height: 30px;
+}
+.block-sidee img{
+   width: 30px;
+   height: 30px;
+}
+.block-side p{
+   font-size: 14px;
+   padding-left: 5px;
+   font-weight: 600;
+}
+.block-sidee p{
+   font-size: 12px;
+   padding-left: 5px;
+   font-weight: 600;
+}
+
+.block-Logout img{
+   width: 20px;
+   height: 20px;
+}
+.block-Logout{
+   margin-top: 16rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 1rem;
+}
+.block-Logout img{
+   width: 30px;
+   height: 30px;
+}
+.block-Logout p{
+   font-size: 14px;
+   padding-left: 5px;
+   font-weight: 600;
+}
+

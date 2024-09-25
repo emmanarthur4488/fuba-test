@@ -1,0 +1,229 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.administration{
+    display: flex;
+}
+.admin-main{
+    background: #f3e8efb4;
+}
+.admin-nav{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #cccccc;
+    position: relative;
+    padding: 1rem;
+    background: whitesmoke;
+}
+.admin-right{
+    width: 80%;
+}
+.admin_welcome{
+    display: block;
+}
+.lekan-note{
+    display: flex;
+    align-items: center;
+}
+.admin_welcome p{
+    color: #696969;
+}
+.admin_noti{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.admin_noti-container{
+    display: flex;
+    align-items: center;
+}
+.admin-bell{
+    width: 25px;
+    height: 25px;
+}
+.admin-ellipse{
+    position: relative;
+    top: -7px;
+    left: -6px;
+    width: 10px;
+    height: 10px;
+}
+.search-icon{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #cccccc;
+    padding: 3px;
+}
+.admin-masks{
+    display: flex;
+    align-items: center;
+}
+.admin-masks h1{
+    font-size: 12px;
+    padding: 2px;
+}
+.admin-masks p{
+    font-size: 11px;
+    color: #8a8989;
+    padding-left: 2px;
+}
+.admin-section_2{
+    display: flex;
+    background: whitesmoke;
+    padding: 1rem;
+    gap: 1rem;
+}
+.lekan-left{
+    width: 70%;
+}
+.lekan-card_right{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+.lekan-left_card{
+    background: #ffffff;
+    box-shadow: 0px 4px 4px 4px rgba(158, 157, 157, 0.2);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 6px;
+}
+.lekan-left_card p{
+    font-size: 14px;
+    color: #aaaaaa;
+}
+.lekan-left_card h3{
+    font-size: 15px;
+    color: #5e5d5d;
+}
+.reading{
+    background: #edd6ee;
+    padding: 4px;
+    border-radius: 50%;
+}
+.lekan-right{
+    background: #ffffff;
+    width: 30%;
+    box-shadow: 0px 4px 4px 4px rgba(158, 157, 157, 0.2);
+    padding: 10px;
+    border-radius: 7px;
+}
+.lekan-right h1{
+    font-size: 14px;
+    padding-bottom: 1rem;
+}
+.recent-card{
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.recent-card p{
+    font-size: 11px;
+    color: #6d6b6b;
+    padding-left: 0.5rem;
+}
+.recent-card span{
+    color: black;
+    font-weight: 600;
+}
+.rectangle_3{
+    padding-left: 0.7rem;
+}
+.rectangle_3 img{
+    height: 15px;
+    width: 3px;
+}
+.chart{
+    padding-top: 1rem;
+    width: 70%;
+}
+.admin-rating{
+    display: flex;
+    padding: 1rem;
+    background: whitesmoke;
+    gap: 1rem;
+}
+.admin-activity_level{
+    display: flex;
+    align-items: center;
+}
+.rating_dot{
+    width: 10px;
+    height: 10px;
+}
+.admins-rating{
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+.admins-rating p{
+    font-size: 11px;
+    font-weight: 600;
+    color: #8a8989;
+}
+.admin-rat_inner-card{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.admin_rating-card{
+    background: #ffffff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 4px 4px 4px rgba(158, 157, 157, 0.2);
+    border-radius: 7px;
+}
+.rate-value{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+.rate-value img{
+    width: 15px;
+    height: 15px;
+}
+.rate-value .rate-value_rate{
+    font-size: 11px;
+    color: #7baa7b;
+    font-weight: 600;
+}
+.rate-value .rate-value_rate1{
+    font-size: 11px;
+    color: #c55757;
+    font-weight: 600;
+}
+.rate-logo{
+    width: 25px;
+    height: 25px;
+}
+.revenue{
+    color: #6d6b6b;
+    font-size: 11px;
+    font-weight: 600;
+}
+.value{
+    color: #6d6b6b;
+    font-size: 11px;
+}
+.admins_active-container{
+    background: #ffffff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 4px 4px 4px rgba(158, 157, 157, 0.2);
+    border-radius: 7px;
+}
+.admins_active-container h3{
+    font-size: 13px;
+    color: #575656;
+}
+.admin-activity_level{
+    padding: 1rem;
+}
+.activity-range{
+    width: 100px;
+    height: 100px;
+} */

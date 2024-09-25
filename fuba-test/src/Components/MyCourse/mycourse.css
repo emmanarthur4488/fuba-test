@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tut-container{
+    padding: 1rem;
+}
+.notificationcontainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.tut-container .logo{
+    width: 70px;
+    height: 70px;
+}
+.tut-ul{
+    display: flex;
+    align-items: center;
+}
+.tut-container input{
+    font-size: 14px;
+    padding: 5px;
+    border:  1px solid #cccccc;
+}
+.tut-btn{
+    border: none;
+    padding: 1px;
+    background: #280D46;
+    padding: 3px;
+}
+.tutor_feild p{
+    color: black;
+    font-size: 9px;
+    font-weight: 600;
+}
+.tutor_feild{
+    padding: 5px;
+}
+.tutor_cont{
+    display: flex;
+    align-items: center;
+}
+.noti_img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.tutor_img{
+    width: 30px;
+    height: 30px;
+}
+.search_bar{
+    width: 18px;
+    height: 18px;
+}
+.mycourse-container{
+    display: flex;
+    width: 100%;
+    background: #f7f5f5;
+}
+.mycourse-left{
+    width: 75%;
+}
+.mycourse-right{
+    width: 35%;
+    background: white;
+    margin-top: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+}
+.calibartor{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.back-course{
+    color: #FF3D00;
+}
+.cali{
+    display: flex;
+    align-items: center;
+}
+.prev{
+    display: flex;
+    padding-right: 1rem;
+    align-items: center;
+    font-size: 12px;
+}
+.next{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.course-video{
+    width: 75%;
+}
+.progress-bar{
+    position: relative;
+    top: -7rem;
+    width: 70%;
+    margin-left: 1rem;
+}
+.prog-screen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    top: -6rem;
+    position: relative;
+    padding-left: 2rem;
+}
+.fullscreen{
+    display: flex;
+    align-items: center;
+}
+.fullscreen p{
+    color: #ffffff;
+    font-size: 9px;
+    padding-left: 5px;
+}
+.fullscreen img{
+    width: 20px;
+}
+.subtitle{
+    display: flex;
+    align-items: center;
+}
+.subtitle img{
+    width: 20px;
+}
+.subtitle p{
+    color: #ffffff;
+    padding-right: 5px;
+    font-size: 9px;
+}
+.mycourse-note{
+    width: 75%;
+    padding-left: 1rem;
+}
+.mycourse-note p{
+    font-size: 13px;
+    line-height: 20px;
+    color: #747373;
+}
+.mycourse-note h2{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.rated-course{
+    padding: 1rem;
+
+}
+.black-star{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+.Course-Module{
+    font-size: 11px;
+    padding: 10px;
+}
+.Course-Module h2{
+    color: #FF3D00;
+    background: #ffffff;
+    padding: 1rem;
+}
+.main-modulecontainer{
+    background: #ffffff;
+}
+.course_module_container{
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding-top: 0.5rem;
+    background: #ffffff;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.course_module_container h2{
+    font-size: 13px;
+    color: #280D46;
+}
+.my_module-container{
+    display: flex;
+    align-items: center;
+}
+.my_module-container img{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+.module-tick-container{
+    display: flex;
+    justify-content: space-between;
+}
+.module-tick-container .tick{
+    display: flex;
+    align-items: center;
+}
+.tick p{
+    font-size: 12px;
+    padding-left: 5px;
+}
+.mins-container{
+    display: flex;
+    align-items: center;
+}
+.mins-container img{
+    width: 12px;
+    height: 12px;
+}
+.mins-container p{
+    font-size: 12px;
+    padding-left: 5px;
+    color: #929292;
+}
+
+
+
+@media (max-width: 840px){
+    .tut-container .logo{
+        width: 50px;
+        height: 50px;
+    }
+    .tut-container{
+        padding: 1rem;
+    }
+    .tut-container input{
+        font-size: 8px;
+        padding: 5px;
+        border:  1px solid #cccccc;
+    }
+    .tut-ul{
+        display: flex;
+        align-items: center;
+    }
+    .tut-btn{
+        border: none;
+        padding: 1px;
+        background: #280D46;
+    }
+    .search_bar{
+        width: 16px;
+        height: 16px;
+    }
+    .tutor_cont{
+        display: block;
+        align-items: center;
+    }
+    .tutor_feild{
+       display: none;
+    }
+    .mycourse-container{
+        display: block;
+        width: 100%;
+        background: #f7f5f5;
+    }
+    .mycourse-left{
+        width: 100%;
+    }
+    .mycourse-right{
+        width: 90%;
+        background: white;
+        margin-top: 2rem;
+        /* margin-right: 1rem;
+        margin-bottom: 3rem; */
+    }
+    .fullscreen img{
+        width: 20px;
+    }
+    .course-video{
+        width: 100%;
+    }
+    .mycourse-note{
+        width: 100%;
+        padding-left: 1rem;
+    }
+    .black-star img{
+        width: 20px;
+        height: 20px;
+    }
+    .calibartor{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+}

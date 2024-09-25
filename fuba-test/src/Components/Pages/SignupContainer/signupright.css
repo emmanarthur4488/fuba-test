@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.signup-right{
+    width: 100%;
+    height: 115vh;
+    background: linear-gradient(rgba(8, 0, 58, 0.507), rgba(8, 0, 58, 0.212)), url('/src/IMG/business-man.png') repeat-x;
+    background-size: cover;
+    background-position: center;
+}
+.sign-note{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+    position: relative;
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-family: Times, serif;
+}

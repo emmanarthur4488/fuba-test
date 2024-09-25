@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.video-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc
+}
+.video-noti_container{
+    display: flex;
+    align-items: center;
+}
+.video-tutor_container{
+    display: flex;
+    align-items: center;
+}
+.video-logo{
+    width: 70px;
+    height: 70px;
+}
+.video-notification{
+    width: 25px;
+    height: 25px;
+}
+.video-tutor{
+    width: 25px;
+    height: 25px;
+}
+.phil{
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 3px;
+}
+.tutorr{
+    font-size: 11px;
+    color: #706f6f;
+    padding-left: 3px;
+}
+.upload-note{
+    font-weight: 600;
+}
+.video-main{
+    padding: 1rem;
+    display: flex;
+    background: whitesmoke;
+    width: 100%;
+    gap: 2rem;
+}
+.video_thumbnail{
+    background: #ffffff;
+    padding: 2rem;
+    width: 40%;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+}
+.upload_container{
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    width: 60%;
+}
+.upload_dashing{
+    background: #ffffff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.upload-dash{
+    border: 2px dashed #c9c0e4;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding: 2rem;
+    background: whitesmoke;
+    border-radius: 4px;
+}
+.upload-dash p{
+    color: #706f6f;
+}
+.upload-btn{
+    padding-top: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.upload-btn button{
+    width: 100%;
+    border: 2px solid #c9c0e4;
+    background: transparent;
+    color: #7555dfa1;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+}
+.upload-input{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 1rem;
+}
+.upload-input input{
+    width: 100%;
+    margin-bottom: 1rem;
+    outline: none;
+    border: 1px solid #aaaaaa;
+    padding: 3px;
+    background: none;
+}
+.upload-input label{
+   color: #636262;
+   font-weight: 600;
+}
+.done{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.done button{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    background: #240152;
+    color: whitesmoke;
+}
+.my-thumbnail{
+    height: 50%;
+    width: 100%;
+}
+.check_container{
+    display: flex;
+    gap: 4rem;
+    padding-top: 1rem;
+}
+.check-inner{
+    display: flex;
+    align-items: center;
+}
+.check-inner img{
+    width: 18px;
+    height: 18px;
+}
+.check-inner p{
+    font-size: 10px;
+    padding-left: 3px;
+}
+.check_check button{
+    margin-top: 0.3rem;
+    border-radius: 5px;
+    font-size: 13px;
+    background: #e0dede;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+.uploadheader{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.uploadheader h4{
+    font-size: 13px;
+}
+.uploadheader p{
+    font-size: 11px;
+    color: #949292;
+    padding: 5px;
+}
+
+
+
+/*  */
+main{
+    border: 2px dashed #c9c0e4;
+    height: 150px;
+    width: 250px;
+    cursor: pointer;
+    border-radius: 2%;
+    background: whitesmoke;
+    display: block;
+}
+.profile{
+    display: block;
+    width: 100%;
+}
+.profile p{
+    color: #868484;
+    font-size: 12px;
+    padding-top: 5px;
+    position: absolute;
+}
+.change-profile{
+    border: none;
+    background: transparent;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 250px;
+    margin-left: -5rem;
+    border-radius: 3px;
+    margin-top: 1rem;
+    color: #c9c0e4;
+    border: 2px solid #c9c0e4;
+}
+
+
+
+@media (max-width: 840px){
+    .video-main{
+        padding: 1rem;
+        display: block;
+        background: whitesmoke;
+        width: 100%;
+        gap: 2rem;
+    }
+    .video_thumbnail{
+        background: #ffffff;
+        padding: 2rem;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #cccccc;
+    }
+    .upload_container{
+        border-radius: 10px;
+        border: 1px solid #cccccc;
+        width: 100%;
+    }
+}

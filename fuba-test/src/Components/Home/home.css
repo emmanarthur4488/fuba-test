@@ -1,0 +1,81 @@
+.hero{
+    width: 100%;
+    height: 89vh;
+    background: linear-gradient(rgba(8,0,58,0.7), rgba(8,0,58,0.3)), url('/src/IMG/business-man.png') repeat-x;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero .reg-link{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 130px;
+    text-align: center;
+    color: #000000;
+}
+.hero .reg-link .learner{
+    background: #ffffff;
+    padding: 4rem;
+    border-radius: 7px;
+}
+.hero .reg-link .learner p{
+    font-size: 13px;
+    font-weight: 500;
+    color: #313131;
+    line-height: 36px;
+}
+.hero .reg-link .learner h1{
+    font-size: 22px;
+    color: #313131;
+    font-family: sans-serif;
+}
+.hero .reg-link .tutor{
+    background: #ffffff;
+    padding: 4rem;
+}
+
+.hero .reg-link .tutor{
+    background: #ffffff;
+    padding: 4rem;
+    border-radius: 7px;
+}
+.hero .reg-link .tutor p{
+    font-size: 13px;
+    font-weight: 500;
+    color: #313131;
+    line-height: 36px;
+}
+.hero .reg-link .tutor h1{
+    font-size: 22px;
+    color: #313131;
+    font-family: sans-serif;
+}
+.hero .reg-link .tutor{
+    background: #ffffff;
+    padding: 4rem;
+}
+
+
+
+@media (max-width: 840px){
+    .hero .reg-link{
+        position: relative;
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        color: #000000;
+        gap: 50px;
+    }
+    .hero .reg-link .learner{
+        background: #ffffff;
+        padding: 2rem;
+        border-radius: 7px;
+    }
+    .hero .reg-link .tutor{
+        background: #ffffff;
+        padding: 2rem;
+    }
+}

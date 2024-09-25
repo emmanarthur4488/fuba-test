@@ -1,0 +1,110 @@
+.my_dash_dash{
+    display: flex;
+    justify-content: space-between;
+}
+.dash-container{
+    display: flex;
+}
+.my-dashboard{
+    background: #eeecec;
+    height: 170vh;
+    padding: 1rem;
+}
+.dashboard_nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.dash-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.upload{
+    background: #280D46;
+    display: flex;
+    align-items: center;
+    margin-left: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 4px;
+}
+.upload img{
+    width: 20px;
+    height: 20px;
+}
+.upload p{
+    color: whitesmoke;
+    font-size: 10px;
+}
+.noti .noti-bell{
+    width: 30px;
+    height: 30px;
+}
+.noti .ellipse{
+    position: relative;
+    top: -1.3rem;
+    left: -10px;
+}
+.student-upload_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 1rem;
+    gap: 1rem;
+    padding: 2rem;
+    background: linear-gradient(rgba(10, 3, 63, 0.856), rgba(125, 118, 170, 0.74));
+}
+.student-upload{
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 5px;
+    position: relative;
+    top: 6rem;
+    width: 100%;
+}
+.student-upload p{
+    color: #aaaaaa;
+}
+.student-upload{
+    font-size: 12px;
+}
+.dash-container{
+    display: flex;
+    width: 100%;
+}
+.top-rated{
+    width: 40%;
+}
+.dash-course{
+    top: 5rem;
+    position: relative;
+    width: 60%;
+}
+.dashcourse{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.dash_chart1{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 5px;
+    margin-top: 1rem;
+    box-shadow: 0px 4px 4px 4px rgba(158, 157, 157, 0.2);
+}
+.chart h2{
+    font-size: 13px;
+}
+.chart img{
+    cursor: pointer;
+}
+.chart p{
+    font-size: 10px;
+    color: rgb(156, 153, 153);
+    padding-top: 5px;
+}
+.dash-main_container{
+    margin-top: 5rem;
+}

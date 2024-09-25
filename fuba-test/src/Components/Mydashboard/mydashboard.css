@@ -1,0 +1,53 @@
+.mydash-container{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+
+}
+.dashcourse{
+    width: 60%;
+}
+.dash-left{
+    width: 60%;
+}
+.dash-right{
+    width: 40%;
+}
+.rated-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.rated-container h2{
+    font-size: 14px;
+}
+.rated-container p{
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+.rated-sub{
+    display: flex;
+    background: white;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    align-items: center;
+    border-radius: 8px;
+}
+.lancer{
+    display: flex;
+}
+.lancer img{
+    width: 15px;
+    height: 15px;
+}
+.rated-sub_div h2{
+    font-size: 14px;
+}
+.rated-sub_div{
+    padding-left: 1rem;
+}
+.lancer p{
+    font-size: 12px;
+    color: #aaaaaa;
+}

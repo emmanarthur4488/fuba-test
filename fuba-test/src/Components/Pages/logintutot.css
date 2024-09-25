@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.my_login-container{
+    display: flex;
+    height: 100vh;
+}
+.login_right{
+    width: 50%;
+}
+.login_left{
+    width: 50%;
+}
+.mycheck{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.forget{
+    padding-right: 1rem;
+}
+.forget p{
+    font-size: 13px;
+    font-weight: 600;
+    color: #333333;
+}
+
+/* hidden */
+.myphonescreen-container{
+    display: none;
+}
+
+@media (max-width: 840px){
+    /* hidden */
+    .my_login-container{
+        display: none;
+    }
+    .myphonescreen-container{
+        display: block;
+    }
+}
